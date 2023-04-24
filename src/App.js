@@ -60,7 +60,7 @@ function App() {
         </select>
         日<button onClick={onClickButton}>曜日を出力</button>
       </div>
-      <div>{dayOfWeek}</div>
+      <div style={{ fontSize: "72px", color: "red" }}>{dayOfWeek}</div>
     </div>
   );
 }
